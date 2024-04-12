@@ -15,6 +15,5 @@ class TgBot:
 
 @dataclass
 class Config:
-    tg_bot: TgBot
+    tg_bot: TgBot = TgBot() # загружаю объкт класса TgBot
     db: DatabaseConfig
-
